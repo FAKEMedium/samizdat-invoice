@@ -1,6 +1,7 @@
 .gitignore
 Changes
 lib/Samizdat/Command/invoice.pm
+lib/Samizdat/Command/makereminders.pm
 lib/Samizdat/Controller/Invoice.pm
 lib/Samizdat/Model/Invoice.pm
 lib/Samizdat/Plugin/Invoice.pm
