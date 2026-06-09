@@ -1,0 +1,7 @@
+Revision history for Samizdat-Plugin-Invoice
+
+0.01
+    - Extracted from the Samizdat monorepo (history-preserving) as a standalone
+      installable distribution. Ships its own templates, settings schema and
+      locale catalogs under lib/Samizdat/resources/. Requires core's Customer
+      plugin; optionally integrates with Samizdat-Plugin-Fortnox.
