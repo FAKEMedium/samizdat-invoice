@@ -29,9 +29,14 @@ WriteMakefile(
   PM               => \%pm,
   PREREQ_PM        => {
     'Mojolicious' => '9.0',
-    'Hash::Merge' => 0,
-    # Samizdat (core) provides the Customer plugin (required), Cache, and the
-    # settings resolver; declared as a runtime requirement in META below.
+    'Data::UUID' => 0,
+    'Date::Format' => 0,
+    'HTML::FormatText' => 0,
+    'HTML::TreeBuilder' => 0,
+    'MIME::Lite' => 0,
+    'SQL::Abstract' => 0,
+    'Time::ParseDate' => 0,
+    'UUID' => 0,
   },
   TEST_REQUIRES => { 'Test::More' => 0 },
   META_MERGE    => {
